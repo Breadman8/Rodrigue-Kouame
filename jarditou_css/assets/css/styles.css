@@ -1,0 +1,45 @@
+body {
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav{
+  width: auto;
+  background-color: black;
+}
+.logo{
+  text-align: left;
+  display: inline-block;
+}  
+.texte {
+  text-align: center;
+  display: inline-block;
+}
+   h1 {
+    font-size: 48pt;
+    color :#FF0000;
+    font-style: italic;
+    border-bottom: solid thin black;
+   }
+   
+   p {
+    font-size: 12pt;
+    font-family: Arial;
+    letter-spacing: 0.2mm;
+    word-spacing: 0.8mm;
+    line-height: 2em;
+
+   }
+   a:hover{
+    color: red;
+   }
+  
+div {
+  box-shadow : 10px 5 px 5px red;
+  text-shadow : 1px 1px 2px pink;
+}
+footer{
+  width: auto;
+  background-color:;
+}
+   
