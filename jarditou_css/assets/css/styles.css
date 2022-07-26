@@ -34,12 +34,9 @@ a{
   height: 100%;
   margin: 1px;
 }
-   
-
    a:hover{
     color: red;
    }
-  
 footer{
   width: 100%;
   color: white;
