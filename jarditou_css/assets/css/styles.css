@@ -1,48 +1,60 @@
-header{
-  display:flex;
+header {
+  display: flex;
   justify-content: space-between;
 }
-
-body {
-    background-color: aliceblue;
-}
-nav{
-  width: 100%;
-  background-color: black;
-  display:block;
-  height: auto;
-  margin: 1px;
-  border: 1px solid black;
-}
-li{
-  display: inline-block;
-}
-.logo{  
+.logo {
   display: flex;
   flex-wrap: wrap;
-}  
+}
 .texte {
-border: 10px;
-font-size: 13px;
-width: 57%;
+  border: 10px;
+  font-size: 13px;
+  width: 57%;
 }
-a{
-  color:white;
-}
-.promo{
+.promo {
   width: 100%;
   height: 100%;
   margin: 1px;
 }
-   a:hover{
-    color: red;
-   }
-footer{
+nav {
   width: 100%;
-  color: white;
-  background-color:black;
+  background-color: black;
+  display: block;
   height: auto;
   margin: 1px;
   border: 1px solid black;
 }
-   
+a:hover {
+  color: red;
+}
+a {
+  color: white;
+}
+li {
+  display: block;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+.aside {
+  display: flex;
+  justify-content: right;
+  
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  background: gray;
+  width: 400px;
+  height: 650px;
+  margin: 2px;
+}
+footer {
+  width: 100%;
+  color: white;
+  background-color: black;
+  height: auto;
+  margin: 1px;
+  border: 1px solid black;
+}
