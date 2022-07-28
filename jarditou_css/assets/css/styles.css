@@ -62,24 +62,13 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) 
-{
+@media screen and (max-width: 768px) {
   header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-}
-  @media screen (max-width: 576px;)
-{
-  header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-}
-    
+  
   .logo {
     display: flex;
   }
@@ -134,3 +123,4 @@ footer {
     margin: 1px;
   }
 }
+
