@@ -32,19 +32,20 @@
                 <hr>
             <p>* Ces zones sont obligatoires</p>
             <fieldset>
-            <legend>Vos coordonnées</legend>
-            <label for="?">Nom:</label><input type="text" name="nom" id="?"><br>
-            <label for="?">prenom:</label><input type="text" name="prenom"><br>
+                <legend>Vos coordonnées</legend>
+                <form action="http://bienvu.net/script.php" method="get"><br>
+            <label for="nom">Nom:</label><input type="text" name="nom" id="nom" placeholder="Dubois"><br>
+            <label for="prenom">Prénom:</label><input type="text" name="prenom" id="prenom" placeholder="Léon"><br>
             <br>
             <label for="?">Sexe* :</label>
             <input type="radio" name="genre" value="feminin"> Féminin
             <input type="radio" name="genre" value="masculin"> Masculin<br>
             <br>
             <label for="date">Date de naissance*:</label><input type="date" name="ddn" id="date"><br>
-            <label for="code_postal">Code postal*:</label><input type="text" name="code_postal" id="code_postal"><br>
-            <label for="adresse">Adresse*:</label><input type="text" name="adresse" id="adresse"><br>
-            <label for="ville">Ville*:</label><input type="text" name="ville" id="ville"><br>
-            <label for="email">Email*:</label><input type="text" name="email" id="email"><br>
+            <label for="code_postal">Code postal*:</label><input type="text" name="code_postal" id="code_postal" placeholder="80000"><br>
+            <label for="adresse">Adresse*:</label><input type="text" name="adresse" id="adresse" placeholder="201 rue béranger"><br>
+            <label for="ville">Ville*:</label><input type="text" name="ville" id="ville" placeholder="Lyon"><br>
+            <label for="email">Email*:</label><input type="text" name="email" id="email" placeholder="aaaa@email.com"><br>
             </fieldset><br>
             <fieldset>
             <label for="sujet">Sujet*:</label><select id="sujet">
@@ -54,13 +55,12 @@
             <option value="text">Réclamation</option>
             <option value="text">Autres</option>
         </select><br>
-            Votre question* :<textarea name="commentaire" rows="3" cols="20"></textarea><br>
+            Votre question* :<textarea name="commentaire" rows="3" cols="20" placeholder="Exprimez-vous"></textarea><br>
         </fieldset>
         <br>
             <input type="checkbox" name="nom" value="" required title=""> * J'accepte le traitement informatique de ce formulaire<br>
-            <form action="http://bienvu.net/script.php" method="get"><br>
             <input type="submit" value="Envoyer">
-            <input type="submit" value="Annuler">
+            <input type="reset" value="Annuler">
         </form><br>
         </div>
     </section>
